@@ -1,3 +1,46 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 li {
-  display: inline
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  padding-left: 10%;
+  padding-right: 40%;
+}
+
+.navbar {
+  background-color: #1f2937;
+}
+
+.link {
+  color: #e5e7eb;
+  font-size: 18px;
 }
