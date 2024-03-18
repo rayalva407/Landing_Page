@@ -160,15 +160,13 @@ li a:hover {
   font-size: 36px;
   font-weight: 100;
   font-style: italic;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 5%;
+  padding: 20px;
 }
 
 .source {
   font-size: 28px;
   font-weight: bold;
-  padding-left: 40%;
+  padding-left: 60%;
 }
 
 .call-to-action {
