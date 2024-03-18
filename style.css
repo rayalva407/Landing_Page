@@ -65,6 +65,10 @@ li a:hover {
 .hero-text {
   text-align: left;
   padding: 20px 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-text {
@@ -81,6 +85,7 @@ li a:hover {
   font-size: 18px;
   color: #e5e7eb;
   margin-top: 0;
+  width: 70%;
 }
 
 .button {
@@ -91,6 +96,7 @@ li a:hover {
   border-radius: 5px;
   padding: 5px 20px 5px 20px;
   font-weight: 800;
+  width: 10%;
 }
 
 .hero-image {
